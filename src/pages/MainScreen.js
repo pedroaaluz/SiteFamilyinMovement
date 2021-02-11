@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainScreen.css';
+import './MainScreen.scss';
 import Mobile from './../assets/mobile.jpeg'
 import Slider from "react-slick";
 import { settings } from './../component/sliderConfig';
@@ -15,7 +15,7 @@ export default () => {
 
         <>
 
-            <Arrow/>
+            <Arrow />
 
             <div className="header">
                 <ScrollAnimation animateIn='bounceInLeft'>
@@ -42,7 +42,7 @@ export default () => {
 
                     <div className="column-25">
                         <div className="img-background">
-                            <img className="img-mobile" src={Mobile} alt="error"/>
+                            <img className="img-mobile" src={Mobile} />
                         </div>
                     </div>
 

@@ -1,14 +1,14 @@
 export default () => {
     return(
         <>
-            <style>{cssstyle}</style>
+            <style>{arrow}</style>
         </>
     );
 }
 
-const cssstyle = `
+const arrow = `
 
-    .slick-next:before, .slick-prev:before {
-        color: #000;
-    }
+.slick-next:before, .slick-prev:before {
+    color: #000;
+}
 `
