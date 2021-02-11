@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainScreen.scss';
+import './MainScreen.css';
 import Mobile from './../assets/mobile.jpeg'
 import Slider from "react-slick";
 import { settings } from './../component/sliderConfig';
@@ -15,7 +15,7 @@ export default () => {
 
         <>
 
-            <Arrow />
+            <Arrow/>
 
             <div className="header">
                 <ScrollAnimation animateIn='bounceInLeft'>
