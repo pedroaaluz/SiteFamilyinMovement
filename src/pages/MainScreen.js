@@ -1,4 +1,3 @@
-import React from 'react';
 import './MainScreen.scss';
 import Mobile from './../assets/mobile.jpeg'
 import Slider from "react-slick";
@@ -41,7 +40,7 @@ function MainScreen() {
 
                     <div className="column-25">
                         <div className="img-background">
-                            <img className="img-mobile" src={Mobile} />
+                            <img className="img-mobile" src={Mobile} alt="erro" />
                         </div>
                     </div>
 

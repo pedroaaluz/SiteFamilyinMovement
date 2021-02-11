@@ -1,4 +1,4 @@
-export default () => {
+function Arrow() {
     return(
         <>
             <style>{arrow}</style>
@@ -12,3 +12,5 @@ const arrow = `
     color: #000;
 }
 `
+
+export default Arrow;
