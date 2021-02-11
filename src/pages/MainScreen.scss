@@ -43,13 +43,11 @@
 .box-download-text{
 
     font-size: 30px;
-    font-family: 'Brush Script MT', cursive;
 }
 
 .box-download-download{
 
     font-size: 20px;
-    font-family: 'Brush Script MT', cursive;
     width: 240px;
     border-radius: 10px;
     outline: none;
@@ -96,22 +94,19 @@
 .text-body-1{
     
     font-size: 45px;
-    font-family: 'Brush Script MT', cursive;
-    text-align: justify;
-    width: 400px;
+    width: 40%;
+ 
 }
 
 .text-body-2{
     color:#057CCD;
     font-size: 38px;
-    font-family: 'Brush Script MT', cursive;
-    text-align: justify;
+    
     
 }
 
 .text-body-description{
     font-size: 20px;
-    font-family: 'Brush Script MT', cursive;
     margin-top: 10px;
     text-align: justify;
 }
@@ -141,7 +136,6 @@
     margin-top: 60px;
     margin-bottom: 40px;
     color:#057CCD;
-    font-family: 'Brush Script MT', cursive;
 }
 
 .foot{
@@ -194,4 +188,16 @@
 
     }
     
+    .text-body-1{
+    
+        font-size: 30px;
+        width: 80%;
+     
+    }
+
+    .text-body-2{
+    
+        font-size: 35px;
+     
+    }
 }
