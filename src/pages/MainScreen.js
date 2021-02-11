@@ -7,6 +7,8 @@ import Arrow from './../component/arrow';
 import Card from './../component/card/card';
 import { slideData } from '../component/dataSlide';
 import ScrollAnimation from 'react-animate-on-scroll';
+import "~slick-carousel/slick/slick.css"; 
+import "~slick-carousel/slick/slick-theme.css";
 
 export default () => {
 

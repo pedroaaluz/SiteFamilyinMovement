@@ -1,6 +1,3 @@
-import male from './../assets/male1.png';
-import male2 from './../assets/male2.png';
-import female from './../assets/female.png'
 import img2 from './../assets/img2.jpeg';
 import img3 from './../assets/img3.png';
 import img4 from './../assets/img4.jpeg';
