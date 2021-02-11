@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    margin: 0 auto;
+    padding: 0px 40px 40px 40px;
+    width: 90%;
+    margin-bottom: 150px;
+    margin-top: 80px;
+}
+
+
+.header{
+
+    background-image: url('./../assets/img.jpg');
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px; 
+    padding-bottom: 200px;
+    padding-left: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.box-download{
+
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.box-download-text{
+
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.box-download-download{
+
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    width: 240px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #005691;
+    color: #fff;
+    border: none;
+    pointer-events: pointer;
+    margin-top: 20px;
+    padding: 15px;
+        
+}
+
+.box-download-download:hover{
+
+    background-color: #057CCD;
+ 
+}
+
+.column-25 {
+    float: left;
+    width: 30%;
+   align-items: center;
+   justify-content: center;
+}
+
+.column-75 {
+    float: left;
+    width: 70%;
+    padding: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-body-1{
+    
+    font-size: 45px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: justify;
+    width: 400px;
+}
+
+.text-body-2{
+    color:#057CCD;
+    font-size: 38px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: justify;
+    
+}
+
+.text-body-description{
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.img-mobile{
+
+    height:335px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #292929;
+    padding: 10px;
+
+}
+
+
+
+.body{
+    margin-top: 50px;
+}
+
+.our-team{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color:#057CCD;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.foot{
+    width: 100%;
+    background-color: #292929;
+    padding: 60px;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 800px) {
+    .column-25 {
+      width: 100%;
+    }
+
+    .column-75 {
+        width: 100%;
+      }
+
+    .row{
+        margin-top: 90px;
+        padding-right: 20px;
+        margin-bottom: 90px;
+    }
+    
+    .box-download-download{
+
+        font-size: 20px;
+        font-family: 'Brush Script MT', cursive;
+        width: 100%;
+        border-radius: 10px;
+        outline: none;
+        background-color: #005691;
+        color: #fff;
+        border: none;
+        pointer-events: pointer;
+        margin-top: 20px;
+        padding: 15px;
+            
+    }
+
+    .box-download{
+        width: 100%;
+    }
+
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    
+}

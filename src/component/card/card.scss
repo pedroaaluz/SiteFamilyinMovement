@@ -1,0 +1,35 @@
+
+.card-body{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-img{
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80px;
+    margin-bottom: 10px;
+}
+
+.card-title{
+    color:#057CCD;
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.card-description{
+
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    color: #52616b;
+    margin-bottom: 50px;
+
+}
+
+.card-body:hover{
+    transform: scale(1.2);
+}
+
