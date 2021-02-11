@@ -1,6 +1,6 @@
 import './card.scss'
 
-export default (props) =>{
+function card(props) {
 
     return(
         <>
@@ -13,3 +13,5 @@ export default (props) =>{
     );
 
 }
+
+export default card;

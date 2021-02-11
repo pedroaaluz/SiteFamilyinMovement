@@ -8,8 +8,7 @@ import Card from './../component/card/card';
 import { slideData } from '../component/dataSlide';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export default () => {
-
+function MainScreen() {
 
     return (
 
@@ -83,3 +82,4 @@ export default () => {
 
 }
 
+export default MainScreen;
