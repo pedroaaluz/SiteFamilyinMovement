@@ -74,7 +74,7 @@ function MainScreen() {
 
 
             <div className="foot">
-                <p>Todos os direitos de imagem são de seus repesctivos autores.</p>
+                <p>Todos os direitos de imagem são de seus respectivos autores.</p>
             </div>
         </>
     );
