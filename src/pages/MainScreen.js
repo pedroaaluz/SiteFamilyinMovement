@@ -33,10 +33,8 @@ function MainScreen() {
 
                     <div className="column-75" >
                         <p className="text-body-1">Vamos conhecer o <span className="text-body-2">Family in Movement?</span></p>
-                        <p className="text-body-description"><span className="text-text">Family in Movement</span> é um aplicativo que tem como objetivo fazer você e sua família terem uma vida mais saudável por meio de exercicios simples e rápidos. Para fazer isso é necessário que você baixe nosso App, escolha uma de nossas 14 atividades, chame seu pai, mãe, irmão, irmã, tia, cachorro, gato, papagaio ou quem queira se exercitar e então se diverta com quem você ama!</p>
+                        <p className="text-body-description"><span className="text-text">Family in Movement</span> é um aplicativo que tem como objetivo fazer você e sua família terem uma vida mais saudável por meio de exercícios simples e rápidos. Para fazer isso é necessário que você baixe nosso App, escolha uma de nossas 14 atividades, chame seu pai, mãe, irmão, irmã, tia, cachorro, gato, papagaio ou quem queira se exercitar e então se divirta com quem você ama!</p>
                     </div>
-
-
 
                     <div className="column-25">
                         <div className="img-background">
