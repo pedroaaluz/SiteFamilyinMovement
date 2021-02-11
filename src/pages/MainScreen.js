@@ -42,7 +42,7 @@ export default () => {
 
                     <div className="column-25">
                         <div className="img-background">
-                            <img className="img-mobile" src={Mobile} />
+                            <img className="img-mobile" src={Mobile} alt="error"/>
                         </div>
                     </div>
 
